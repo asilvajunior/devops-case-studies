@@ -21,7 +21,7 @@ This material is part of the audio visual content created on my YouTube channel:
     
 ### 2022
 
-- [TBD]
+- [Terraform on Azure Reference Monolithic Sample]()
 
 ## :memo: License
 
