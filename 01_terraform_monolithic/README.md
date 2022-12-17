@@ -1,6 +1,6 @@
 
 
-# Terraform on Azure Reference Monolithic
+# Terraform on Azure Reference Monolithic Sample
 
 This repository helps you implement infrastructure as monolithic code using Terraform and Microsoft Azure.
 
