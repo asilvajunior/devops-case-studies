@@ -1,14 +1,17 @@
 
 
-# Terraform on Azure Reference Monolithic
+# Terraform on Azure Reference Multi Monolithic
 
-This repository helps you implement infrastructure as monolithic code using Terraform and Microsoft Azure.
+This repository helps you implement infrastructure as multi monolithic code using Terraform and Microsoft Azure.
 
 ```
-📦01_terraform_monolithic
+📦02_terraform_multi_monolithic
+ ┣ 📂dev
+ ┃ ┗ 📜main.tf
+ ┣ 📂prod
+ ┃ ┗ 📜main.tf
  ┣ 📜.gitignore
- ┣ 📜README.md
- ┗ 📜main.tf
+ ┗ 📜README.md
  ```
 
 ## Prerequisites

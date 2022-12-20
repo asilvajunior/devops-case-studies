@@ -1,0 +1,14 @@
+stages:
+  - stage: PR
+    displayName: Pull Request Validation
+    variables:
+      - template: ../variables/variables.demo.yml
+    jobs:
+      - job: prValidation
+        displayName: Code Validation and Formatting
+        steps:
+          - template: ../steps/step.init.yml
+          - template: ../steps/step.validate.yml
+          - template: ../steps/step.plan.yml
+
+  

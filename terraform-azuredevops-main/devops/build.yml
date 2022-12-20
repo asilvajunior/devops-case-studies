@@ -1,0 +1,15 @@
+---
+trigger:
+  branches:
+    include:
+      - main
+  paths:
+    include:
+      - terraform/stacks/contoso/demo.tfvars
+
+pool:
+  vmImage: ubuntu-latest
+
+stages:
+  - template: stages/stage.build.yml
+    

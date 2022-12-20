@@ -1,0 +1,18 @@
+---
+pr:
+  autoCancel: false
+  branches:
+    include:
+      - main
+  paths:
+    include:
+      - terraform/stacks/contoso/demo.tfvars
+
+trigger: none
+
+pool:
+  vmImage: ubuntu-latest
+
+stages:
+  - template: stages/stage.pr.yml
+  - template: stages/stage.validation.yml
