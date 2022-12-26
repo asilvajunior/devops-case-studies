@@ -1,21 +1,22 @@
-
-
 # Terraform on Azure Reference Modular
 
-This repository helps you implement infrastructure as modular code using Terraform and Microsoft Azure.
+This repository helps you implement infrastructure as multi monolithic code using Terraform and Microsoft Azure.
 
 ```
-📦03_terraform_module
+📦03_terraform_modular
  ┣ 📂modules
  ┃ ┣ 📂dns
  ┃ ┃ ┗ 📜main.tf
  ┃ ┗ 📂vm
  ┃ ┃ ┗ 📜main.tf
+ ┣ 📜.DS_Store
  ┣ 📜.gitignore
+ ┣ 📜.terraform-docs.yml
+ ┣ 📜Makefile
  ┣ 📜README.md
  ┗ 📜main.tf
  ```
-
+ 
 ## Prerequisites
 
 In order to follow this documentation and try it by yourself, you need:
@@ -39,6 +40,7 @@ In order to follow this documentation and try it by yourself, you need:
 |------|------|
 | [azurerm_private_dns_zone.dns](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/private_dns_zone) | resource |
 | [azurerm_resource_group.rg](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/resource_group) | resource |
+
 ## Inputs
 
 | Name | Description | Type | Default | Required |
@@ -48,5 +50,3 @@ In order to follow this documentation and try it by yourself, you need:
 ## Outputs
 
 No outputs.
-
-
