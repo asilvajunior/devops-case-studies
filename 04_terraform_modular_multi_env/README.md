@@ -1,6 +1,6 @@
 # Terraform on Azure Reference Modular Multi Environment Sample
 
-This repository helps you implement infrastructure as multi monolithic code using Terraform and Microsoft Azure.
+This repository helps you implement infrastructure as modular multi environment code using Terraform and Microsoft Azure.
 
 ```
 📦04_terraform_modular_multi_env
@@ -33,6 +33,15 @@ This repository helps you implement infrastructure as multi monolithic code usin
  ┣ 📜variables.tf
  ┗ 📜versions.tf
  ```
+
+## Prerequisites
+
+In order to follow this documentation and try it by yourself, you need:
+
+- A Microsoft Azure account. You can create a free trial account.
+- Install Terraform on your machine, if you want to experiment the scripts locally
+- Fork this repository into your GitHub account
+- Install the Azure CLI
 
 ## Resources
 

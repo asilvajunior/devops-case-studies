@@ -1,6 +1,6 @@
 # Terraform on Azure Reference Modular
 
-This repository helps you implement infrastructure as multi monolithic code using Terraform and Microsoft Azure.
+This repository helps you implement infrastructure as modular code using Terraform and Microsoft Azure.
 
 ```
 📦03_terraform_modular
