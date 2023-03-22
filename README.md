@@ -19,7 +19,7 @@ This material is part of the audio visual content created on my YouTube channel:
     
 ## :speaker: Case Studies
     
-### 2022
+### 2023
 
 - [Terraform on Azure Reference Monolithic Sample](01_terraform_monolithic)
 - [Terraform on Azure Reference Multi Monolithic Sample](02_terraform_multi_monolithic)
