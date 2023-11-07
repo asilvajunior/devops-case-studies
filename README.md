@@ -26,6 +26,10 @@ This material is part of the audio visual content created on my YouTube channel:
 - [Terraform on Azure Reference Modular Sample](03_terraform_modular)
 - [Terraform on Azure Reference Modular Multi Environment Sample](04_terraform_modular_multi_env) 
 
+<p align='center'>
+  Do you like my open source projects? <a href='https://stars.github.com/nominate/'>Nominate me to Github Stars ⭐</a>
+</p>
+
 ## :memo: License
 
 This project is under [MIT License](./LICENSE).
